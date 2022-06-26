@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@300&family=Roboto:wght@300;700&display=swap');
+.logo img{
+  width: 50%;
+}
+.bheader{
+  background-color: black;
+  color: white;
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+    position: relative;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.banner video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 50px 50px 80px 50px;
+}
+
+.text-box h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.text-box a{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub-menu{
+    background-color: rgb(77, 74, 74);
+    padding: 30px;
+    color: white;
+    position: absolute;
+    width: 120px;
+    display: none;
+    left: 0;
+    top: 50px;
+}
+.sub-menu:hover{
+    display: block;
+}
+.promote img{
+  width: 100%;
+  border:none;
+}
+.dash{
+  width: 40px;
+  margin-bottom: 20px;
+  height: 5px;
+  background-color: darkgreen;
+}
+.image{
+  /* border: 1px solid lightgrey; */
+  padding: 20px;
+  background-color:beige;
+}
+.image:hover{
+  background-color: rgb(252, 235, 178);
+}
+.image img{
+  width:100%;
+  margin-bottom: 10px;
+}
+.image-content img{
+ width: 12%;
+ float: right;
+}
+.image-content a{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.image-content p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.circle img{
+width: 100%;
+border-radius: 30px 0;
+}
+.bground{
+  background-image: url("../img/Banner-1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.btn{
+  width: 200px;
+}
+.text-box .btn{
+  width: 500px;
+}
+.stir{
+  background-color:rgb(252, 235, 178);
+  padding:20px;
+}
+.fruit-bg{
+  background-image: url("../img/tropical-fruits-gd680c017a_1280.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-img{
+  background-image: url("../img/twigs-gecaa9d19d_1920.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ct-img img{
+  width: 100%;
+}
+.ct-content {
+  background-color:rgba(255, 235, 205, 0.8);
+}
